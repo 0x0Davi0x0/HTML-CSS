@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            padding: 10px 15px 10px 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no título principal */
+        }
+
+        h2 {
+            text-align: right;
+            font-size: 1.5em;
+            color: #bbb;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no subtítulo */
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            flex-wrap: wrap;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #e9e9e9;
+            margin: 10px;
+            flex: 1;
+        }
+
+        .centralizado {
+            text-align: center;
+        }
+
+        .direita {
+            text-align: right;
+        }
+
+        section p {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .lista-vermelha {
+            border: 1px dotted red;
+            padding: 10px;
+            margin-right: 10px;
+            background-color: #ffe6e6;
+        }
+
+        .lista-azul {
+            border: 1px solid blue;
+            padding: 10px;
+            background-color: #e6f0ff;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .imagens {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .imagens img {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+        }
+
+        /* Adicionando sombra a duas imagens */
+        .imagens img:nth-child(1),
+        .imagens img:nth-child(3) {
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra nas imagens 1 e 3 */
+        }
+
+        aside {
+            margin-left: 10px;
+            background-color: #f1f1f1;
+            padding: 10px;
+            flex: 0 0 20%;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            border-top: 1px dashed green;
+            border-bottom: 1px dashed green; /* Adiciona uma borda tracejada ao rodapé */
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inovações Tecnológicas</h1>
+        <h2>O Futuro Está Aqui</h2>
+    </header>
+    
+    <main>
+        <section class="centralizado">
+            <h3>Inteligência Artificial</h3>
+            <p>A IA está revolucionando o mundo.</p>
+            <p>Explorando novos limites com automação.</p>
+        </section>
+        
+        <section class="direita">
+            <h3>Internet das Coisas (IoT)</h3>
+            <ul class="lista-vermelha">
+                <li>Dispositivos Conectados</li>
+                <li>Automação Residencial</li>
+                <li>Smart Cities</li>
+            </ul>
+            <ul class="lista-azul">
+                <li>Segurança na IoT</li>
+                <li>Impactos na Saúde</li>
+                <li>Indústria 4.0</li>
+            </ul>
+        </section>
+
+        <div class="imagens">
+            <img src="https://embarcados.com.br/wp-content/uploads/2021/01/2-1-1.png" alt="Tecnologia 1">
+            <img src="https://digitrol.com.br/wp-content/uploads/2021/02/industria-4-0.png" alt="Tecnologia 2">
+            <img src="https://www3.ft.unicamp.br/sites/default/files/tads.jpg" alt="Tecnologia 3">
+            <img src="https://blog.saninternet.com/wp-content/uploads/2024/04/ia.png" alt="Tecnologia 4">
+        </div>
+
+        <aside>
+            <p>Novidades Tecnológicas</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2024 TechWorld</p>
+        <a href="#link1">Notícias</a>
+        <a href="#link2">Contato</a>
+        <a href="#link3">Sobre</a>
+    </footer>
+</body>
+</html>
